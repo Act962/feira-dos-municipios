@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "../ui/buttons";
 
 export default function Expositores() {
   return (
@@ -15,7 +16,7 @@ export default function Expositores() {
         width={210}
         height={210}
         alt="Button"
-        className="absolute bg-cover hover:opacity-85 bottom-32 left-0"
+        className="absolute bg-cover hover:opacity-85 bottom-12 size-32 md:size-auto md:bottom-32 left-0"
       />
       <div className="relative w-full max-w-4xl mx-auto flex flex-col items-center">
         <p className="text-justify leading-6">
@@ -47,13 +48,7 @@ export default function Expositores() {
           desenvolvimento e fortalece a construção de um Piauí mais integrado,
           criativo e sustentável
         </p>
-        <button className="relative w-full h-14 md:max-w-[387px] md:h-[70px] group cursor-pointer mt-12 hover:opacity-85">
-          <Image src="/vector.png" fill alt="Button" className="bg-cover" />
-          <div className="relative w-full flex items-center justify-center gap-4">
-            <span className=" font-bold">Conheça nossos expositores</span>
-            <Image src="/seta.png" width={12} height={12} alt="Seta" />
-          </div>
-        </button>
+        <Button imageUrl="/vector.png">Conheça nossos expositores</Button>
       </div>
     </section>
   );

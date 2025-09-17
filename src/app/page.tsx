@@ -4,6 +4,7 @@ import { Gallery } from "@/components/gallery";
 import { Hero } from "@/components/hero";
 import Layout from "@/components/layout/layout";
 import { Localization } from "@/components/localization";
+import { Partners } from "@/components/partners";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Localization />
       <Gallery />
       <Expositores />
+      {/* <Partners /> */}
     </Layout>
   );
 }
