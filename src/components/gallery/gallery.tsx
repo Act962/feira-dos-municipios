@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 const images = [
@@ -25,20 +26,40 @@ const images = [
 
 export function Gallery() {
   return (
-    <div className="flex items-center">
-      {images.map((image, index) => (
-        <div
-          className="relative h-40 md:h-60 w-full"
-          key={`image-${image.alt}-${index}`}
-        >
-          <Image
-            src={image.src}
-            alt={image.alt}
-            fill
-            className="w-full bg-cover"
-          />
-        </div>
-      ))}
+    <div className="flex flex-col lg:flex-row">
+      {/* Primeira linha - 2 imagens em telas pequenas */}
+      <div className="grid grid-cols-2 lg:contents">
+        {images.slice(0, 2).map((image, index) => (
+          <div
+            className="relative h-40 lg:h-60 w-full lg:flex-1"
+            key={`image-${image.alt}-${index}`}
+          >
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              className="object-cover"
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Segunda linha - 3 imagens em telas pequenas */}
+      <div className="grid grid-cols-3 lg:contents">
+        {images.slice(2).map((image, index) => (
+          <div
+            className="relative h-40 lg:h-60 w-full lg:flex-1"
+            key={`image-${image.alt}-${index + 2}`}
+          >
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              className="object-cover"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

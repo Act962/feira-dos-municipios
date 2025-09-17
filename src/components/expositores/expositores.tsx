@@ -9,7 +9,7 @@ export default function Expositores() {
         width={72}
         height={72}
         alt="Button"
-        className="absolute bg-cover hover:opacity-85 top-4 right-48"
+        className="absolute bg-cover hover:opacity-85 top-2 md:top-4 right-0 md:right-48"
       />
       <Image
         src="/estrela.png"
