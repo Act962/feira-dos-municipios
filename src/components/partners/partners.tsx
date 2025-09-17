@@ -21,6 +21,34 @@ const partners = [
   { imageUrl: "/partners/mercearia-gourmet.png", title: "Mercearia\nGourmet" },
   { imageUrl: "/partners/lala-doces.png", title: "Lalá Doces" },
   { imageUrl: "/partners/mais-saude.png", title: "Mias Saúde\nDistribuidora" },
+  {
+    imageUrl: "/partners/jose-de-freitas.png",
+    title: "Prefeitura de José\nde Freitas",
+  },
+  {
+    imageUrl: "/partners/dom-inocencio.png",
+    title: "Prefeitura de Dom\nInocêncio",
+  },
+  { imageUrl: "/partners/luzilandia.png", title: "Prefeitura de\nLuzilância" },
+  { imageUrl: "/partners/simoes.png", title: "Prefeitura de\nSimões" },
+  {
+    imageUrl: "/partners/luis-correia.png",
+    title: "Prefeitura de Luis\nCorreia",
+  },
+  {
+    imageUrl: "/partners/loga-do-piaui.png",
+    title: "Prefeitura de Logoa\ndo Piauí",
+  },
+  { imageUrl: "/partners/urucui.png", title: "Prefeitura de Uruçuí" },
+  { imageUrl: "/partners/aroazes.png", title: "Prefeitura de\nAroazes" },
+  {
+    imageUrl: "/partners/demerval-lobao.png",
+    title: "Prefeitura de\nDemerval Lobão",
+  },
+  {
+    imageUrl: "/partners/santa-cruz.png",
+    title: "Prefeitura de Santa\nCruz dos Milagres",
+  },
 ];
 
 export function Partners() {
@@ -47,7 +75,7 @@ export function Partners() {
           </div>
         </div>
 
-        <div className="mt-12 grid grid-cols-3  md:grid-cols-5 gap-12">
+        <div className="mt-16 grid grid-cols-3  md:grid-cols-5 gap-12">
           {partners.map((partner, index) => (
             <div
               className="flex flex-col items-center justify-center"
