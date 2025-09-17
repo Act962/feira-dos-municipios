@@ -14,7 +14,7 @@ export default function Home() {
       <Localization />
       <Gallery />
       <Expositores />
-      {/* <Partners /> */}
+      <Partners />
     </Layout>
   );
 }

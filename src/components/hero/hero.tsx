@@ -72,7 +72,7 @@ export function Hero() {
             culturais que revelam a força e a diversidade dos nossos municípios.
           </p>
 
-          <div className="flex flex-row mt-16">
+          <div className="flex flex-row mt-16 justify-center md:justify-start">
             <Image
               src="/rastag.png"
               alt="#"
