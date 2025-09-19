@@ -88,7 +88,9 @@ export function Hero() {
             </div>
           </div>
 
-          <Button imageUrl="/vector.png">Faça sua inscrição</Button>
+          <Button imageUrl="/vector.png" className="mt-12">
+            Faça sua inscrição
+          </Button>
         </div>
       </div>
     </section>

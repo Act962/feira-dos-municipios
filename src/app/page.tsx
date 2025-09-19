@@ -1,9 +1,11 @@
 import { About } from "@/components/about";
+import { CallToAction } from "@/components/cta";
 import Expositores from "@/components/expositores/expositores";
 import { Gallery } from "@/components/gallery";
 import { Hero } from "@/components/hero";
 import Layout from "@/components/layout/layout";
 import { Localization } from "@/components/localization";
+import { News } from "@/components/news";
 import { Partners } from "@/components/partners";
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <Gallery />
       <Expositores />
       <Partners />
+      <CallToAction />
+      <News />
     </Layout>
   );
 }

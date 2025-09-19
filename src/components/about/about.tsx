@@ -48,7 +48,7 @@ export function About() {
             className="w-[210px] absolute -left-8 md:-left-20 top-28 bg-cover"
           />
 
-          <div className="px-8 md:px-0">
+          <div className="px-8 md:px-0 mt-12">
             <Button imageUrl="/vector-white.png">
               Saiba mais sobre o evento
             </Button>

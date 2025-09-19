@@ -48,7 +48,7 @@ export function Navbar() {
           ))}
         </nav>
 
-        <button>Faça sua incrição</button>
+        <button>Faça sua inscrição</button>
       </div>
     </header>
   );
