@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { CardNews } from "./card";
 import CarouselNews, { CarsouselNewsProps } from "./carousel-news";
 
 const news: CarsouselNewsProps[] = [
@@ -49,7 +48,15 @@ const news: CarsouselNewsProps[] = [
 
 export function News() {
   return (
-    <section className="relative py-16 md:py-24 px-8 space-y-14">
+    <section className="relative py-16 md:py-24 px-8 space-y-14 ">
+      <Image
+        src="/cacto.png"
+        width={580}
+        height={440}
+        alt="Button"
+        className="absolute bg-contain -bottom-18 left-0 w-[180px] lg:w-auto"
+      />
+
       <div className="w-full max-w-4xl mx-auto flex flex-col items-center justify-center ">
         <div className="flex flex-col md:flex-row items-center md:items-end justify-center md:justify-between gap-4 w-full">
           <h2 className="font-bold text-xl md:text-3xl text-center md:text-left">
