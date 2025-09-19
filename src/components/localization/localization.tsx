@@ -8,7 +8,7 @@ export function Localization() {
           <h2 className="font-bold text-3xl text-center md:text-start">
             Como chegar
           </h2>
-          <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 font-extralight">
+          <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 font-extralight ">
             A <strong className="font-bold">Feira dos Municípios 2025</strong>{" "}
             acontece no Centro de Convenções de Teresina, um espaço moderno e
             acessível, preparado para receber grandes públicos e experiências

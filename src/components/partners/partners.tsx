@@ -92,7 +92,7 @@ export function Partners() {
                   className="object-contain"
                 />
               </div>
-              <p className="whitespace-pre-line  text-sm/snug font-medium">
+              <p className="whitespace-pre-line  text-sm/snug font-medium text-center">
                 {" "}
                 {partner.title}{" "}
               </p>
