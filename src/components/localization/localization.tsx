@@ -6,7 +6,7 @@ export function Localization() {
       <div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row gap-16">
         <div>
           <h2 className="font-bold text-3xl text-center md:text-start">
-            Sobre a Feira dos Municípios
+            Como chegar
           </h2>
           <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 font-extralight">
             A <strong className="font-bold">Feira dos Municípios 2025</strong>{" "}
