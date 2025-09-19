@@ -45,7 +45,7 @@ export function About() {
             alt="Foto Chapeu"
             width={358}
             height={352}
-            className="w-[210px] absolute -left-8 md:-left-20 top-28 bg-cover"
+            className="w-[210px] absolute -left-4 md:-left-20 top-28 bg-cover"
           />
 
           <div className="px-8 md:px-0 mt-12">
