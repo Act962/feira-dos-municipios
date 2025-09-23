@@ -35,7 +35,7 @@ export function Hero() {
         <div className="hidden md:block">
           <Image src="/logo.png" alt="Logo" width={396} height={262} />
 
-          <p className="w-full text-start mt-16 ">
+          <p className="w-full text-start mt-16 tracking-wider">
             Territórios de Desenvolvimento Inovadores é o tema da{" "}
             <strong className="font-bold text-orange">
               8ª edição da Feira dos Municípios
@@ -61,7 +61,7 @@ export function Hero() {
             <Countdown />
           </div>
 
-          <p className="md:hidden w-full text-justify mt-16">
+          <p className="md:hidden w-full text-justify mt-16 tracking-wider">
             Territórios de Desenvolvimento Inovadores é o tema da{" "}
             <strong className="font-bold text-orange">
               8ª edição da Feira dos Municípios

@@ -86,8 +86,8 @@ export function Partners() {
                   src={partner.imageUrl}
                   alt={partner.title}
                   fill
+                  quality={65}
                   sizes="(max-width: 768px) 110px, 110px"
-                  quality={95}
                   priority={index < 10} // Prioriza as primeiras 10 imagens
                   className="object-contain"
                 />

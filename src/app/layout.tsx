@@ -1,11 +1,42 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+});
+
+const biennale = localFont({
+  variable: "--font-biennale",
+  src: [
+    {
+      path: "../font/Biennale-thin.otf",
+      weight: "100",
+    },
+    {
+      path: "../font/Biennale-light.otf",
+      weight: "300",
+    },
+    {
+      path: "../font/Biennale-regular.otf",
+      weight: "400",
+    },
+    {
+      path: "../font/Biennale-regular.otf",
+      weight: "500",
+    },
+    {
+      path: "../font/Biennale-bold.otf",
+      weight: "700",
+    },
+    {
+      path: "../font/Biennale-black.otf",
+      weight: "900",
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -42,7 +73,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased`}>{children}</body>
+      <body
+        className={`${biennale.variable} ${biennale.className} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

@@ -35,7 +35,7 @@ export function CardNews({
     <div className="flex flex-col w-full text-background" {...props}>
       <div className=" bg-[#666666] h-[280px]">{/* Conteúdo + Image */}</div>
       <div className={cardVariants({ variant })}>
-        <p className="text-xs font-light text-justify tracking-tighter">
+        <p className="text-xs text-justify font-extralight leading-4">
           {description}
         </p>
 

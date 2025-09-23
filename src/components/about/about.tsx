@@ -3,7 +3,7 @@ import { Button } from "../ui/buttons";
 
 export function About() {
   return (
-    <section className="relative bg-orange text-white">
+    <section className="relative bg-orange text-background">
       <Image
         src="/background-about.png"
         alt="Background About"
@@ -16,10 +16,13 @@ export function About() {
           <h2 className="font-bold text-3xl text-center md:text-start">
             Sobre a Feira <br /> dos Municípios
           </h2>
-          <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12">
-            O maior encontro de integração, cultura e inovação municipalista do
-            Piauí. De 29 a 31 de outubro, no Centro de Convenções de Teresina, a
-            feira reúne os 224 municípios piauienses em um espaço que valoriza
+          <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 tracking-wider font-extralight">
+            <strong>
+              O maior encontro de integração, cultura e inovação municipalista
+              do Piauí.
+            </strong>{" "}
+            De 29 a 31 de outubro, no Centro de Convenções de Teresina, a feira
+            reúne os 224 municípios piauienses em um espaço que valoriza
             identidades locais, promove cooperação regional e impulsiona o
             desenvolvimento sustentável do estado.
           </p>
