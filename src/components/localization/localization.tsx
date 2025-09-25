@@ -5,7 +5,7 @@ export function Localization() {
     <section className="bg-foreground text-white py-24 md:py-32 px-8">
       <div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row gap-16">
         <div>
-          <h2 className="font-bold text-3xl text-center md:text-start">
+          <h2 className="font-bold text-4xl text-center md:text-start">
             Como chegar
           </h2>
           <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 font-extralight ">

@@ -19,11 +19,12 @@ export default function Expositores() {
         className="absolute bg-cover hover:opacity-85 bottom-12 size-32 md:size-auto md:bottom-32 left-0"
       />
       <div className="relative w-full max-w-4xl mx-auto flex flex-col items-center">
-        <p className="text-justify leading-6 text-sm sm:text-base font-extralight">
-          A Feira dos Municípios 2025 consolida-se como o maior e mais relevante
-          evento de integração, cultura e inovação municipalista do Piauí,
-          refletindo o compromisso do estado com o desenvolvimento regional
-          sustentável e a valorização das identidades locais.
+        <p className="text-justify leading-6 font-light">
+          <strong>A Feira dos Municípios 2025</strong> consolida-se como o maior
+          e mais relevante evento de integração, cultura e inovação
+          municipalista do Piauí, refletindo o compromisso do estado com o
+          desenvolvimento regional sustentável e a valorização das identidades
+          locais.
           <br />
           <br /> Com realização da Kalor Produções e co-realização da Associação
           Piauiense de Municípios (APPM), a feira acontecerá nos dias 29, 30 e

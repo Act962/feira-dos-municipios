@@ -35,7 +35,7 @@ export function Hero() {
         <div className="hidden md:block">
           <Image src="/logo.png" alt="Logo" width={396} height={262} />
 
-          <p className="w-full text-start mt-16 tracking-wider">
+          <p className="w-full text-start mt-16 tracking-wider leading-7">
             Territórios de Desenvolvimento Inovadores é o tema da{" "}
             <strong className="font-bold text-orange">
               8ª edição da Feira dos Municípios
@@ -50,18 +50,20 @@ export function Hero() {
         {/* Right */}
         <div className="mt-8 md:mt-0">
           <div>
-            <h3 className="font-bold text-2xl">29, 30 e 31 de outubro</h3>
-            <span className="font-light text-orange">
+            <h3 className="font-black text-3xl">29, 30 e 31 de outubro</h3>
+            <span className="font-normal text-orange">
               Centro de Convenções de Teresina
             </span>
           </div>
 
           <div className="mt-3 space-y-2">
-            <strong className="text-sm block">Estamos chegando em...</strong>
+            <strong className="text-sm font-black block">
+              Estamos chegando em...
+            </strong>
             <Countdown />
           </div>
 
-          <p className="md:hidden w-full text-justify mt-16 tracking-wider">
+          <p className="md:hidden w-full text-justify mt-16 tracking-wider leading-7">
             Territórios de Desenvolvimento Inovadores é o tema da{" "}
             <strong className="font-bold text-orange">
               8ª edição da Feira dos Municípios

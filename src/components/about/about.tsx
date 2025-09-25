@@ -13,7 +13,7 @@ export function About() {
       />
       <div className="relative w-full max-w-4xl mx-auto flex flex-col md:flex-row gap-0 md:gap-24">
         <div className="py-14 px-8">
-          <h2 className="font-bold text-3xl text-center md:text-start">
+          <h2 className="font-black text-4xl text-center md:text-start">
             Sobre a Feira <br /> dos Municípios
           </h2>
           <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 tracking-wider font-extralight">
