@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Countdown } from "./countdown";
 import { Button } from "../ui/buttons";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -90,9 +91,11 @@ export function Hero() {
             </div>
           </div>
 
-          <Button imageUrl="/vector.png" className="mt-12">
-            Faça sua inscrição
-          </Button>
+          <Link href="/inscricao">
+            <Button imageUrl="/vector.png" className="mt-12">
+              Faça sua inscrição
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

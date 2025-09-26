@@ -9,6 +9,10 @@ import { Input } from "@/components/ui/input";
 import { applyMask } from "@/lib/mask-phone";
 import { applyCpfCnpjMask } from "@/lib/maks-cpf-or-cnpj";
 import { Checkbox } from "@/components/ui/checkbox";
+import { useTransition } from "react";
+import { toast } from "sonner";
+import { useRouter } from "next/navigation";
+import { useLead } from "@/hook/create-lead";
 
 const formData = z.object({
   name: z.string().min(1, { error: "Campo obrigatório" }),
@@ -16,22 +20,39 @@ const formData = z.object({
   phone: z.string().min(14, { error: "Campo obrigatório" }),
   city: z.string().min(1, { error: "Campo obrigatório" }),
   cpfOrCnpg: z.string().optional(),
+  terms: z.boolean().refine((val) => val === true, {
+    error: "Você deve aceitar os termos e condições",
+  }),
 });
 
 type FormData = z.infer<typeof formData>;
 
 export default function SignupPage() {
+  const navigate = useRouter();
+  const { createLead } = useLead();
   const {
     register,
     setValue,
+    watch,
+    reset,
     formState: { errors },
     handleSubmit,
   } = useForm<FormData>({
     resolver: zodResolver(formData),
+    defaultValues: {
+      terms: false,
+    },
   });
+  const [isCreated, setIsCreated] = useTransition();
+  const termsValue = watch("terms");
 
-  async function onSubmit(data: FormData) {
-    console.log(data);
+  function onSubmit(data: FormData) {
+    setIsCreated(async () => {
+      await createLead(data).then(() => {
+        reset();
+        navigate.replace("/");
+      });
+    });
   }
 
   return (
@@ -47,7 +68,7 @@ export default function SignupPage() {
 
       <div />
 
-      <div className="relative mx-auto w-full max-w-[532px] border border-foreground/10 rounded-xl px-4 sm:px-8 py-10">
+      <div className="relative mx-auto w-full max-w-[532px]  rounded-xl px-4 sm:px-8 py-10">
         <Image
           src="/logo.png"
           alt="Logo"
@@ -118,7 +139,7 @@ export default function SignupPage() {
 
           <div>
             <label htmlFor="cpfOrCnpg" className="text-sm font-bold">
-              CPF/CNPJ
+              CPF/CNPJ <small>(opcional)</small>
             </label>
             <Input
               placeholder="000.000.000-00"
@@ -134,18 +155,32 @@ export default function SignupPage() {
             )}
           </div>
 
-          <div className="flex items-center gap-3">
-            <Checkbox id="terms" className="cursor-pointer" />
-            <label htmlFor="terms" className="text-sm font-bold cursor-pointer">
-              Aceito os termos e condições
-            </label>
+          <div>
+            <div className="flex items-center gap-3">
+              <Checkbox
+                checked={termsValue}
+                onCheckedChange={(checked) => setValue("terms", !!checked)}
+                id="terms"
+                className="cursor-pointer"
+              />
+              <label
+                htmlFor="terms"
+                className="text-sm font-bold cursor-pointer"
+              >
+                Aceito os termos e condições
+              </label>
+            </div>
+            {errors?.terms?.message && (
+              <ErrorMessage message={errors.terms.message} />
+            )}
           </div>
 
           <button
+            disabled={isCreated}
             type="submit"
-            className="w-full text-white bg-foreground px-4 py-2 rounded-md hover:bg-foreground/90 transition-opacity ease-linear duration-200 cursor-pointer"
+            className="w-full text-white bg-foreground px-4 py-2 rounded-md hover:bg-foreground/90 transition-opacity ease-linear duration-200 cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
           >
-            Confirmar
+            {isCreated ? "Carregando..." : "Confirmar"}
           </button>
         </form>
       </div>
@@ -156,5 +191,5 @@ export default function SignupPage() {
 }
 
 function ErrorMessage({ message }: { message: string }) {
-  return <span className="text-xs">{message}</span>;
+  return <span className="text-xs text-red">{message}</span>;
 }

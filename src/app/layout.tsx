@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -76,6 +77,7 @@ export default function RootLayout({
       <body
         className={`${biennale.variable} ${biennale.className} antialiased`}
       >
+        <Toaster />
         {children}
       </body>
     </html>
