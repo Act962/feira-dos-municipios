@@ -21,6 +21,7 @@ type Props = {
 export default function CarouselNews({ news }: Props) {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
+    slidesToScroll: 1,
   });
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
@@ -37,8 +38,8 @@ export default function CarouselNews({ news }: Props) {
     <div className="relative w-full max-w-6xl mx-auto">
       {/* Container do carrossel sem interferência dos botões */}
       <div className="w-full max-w-4xl mx-auto">
-        <div className="overflow-hidden w-full" ref={emblaRef}>
-          <div className="flex w-full gap-8 backface-hidden touch-pan-y">
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex w-full gap-4 backface-hidden touch-pan-y">
             {news.map((item, index) => (
               <CardNews
                 description={item.description}
@@ -46,7 +47,7 @@ export default function CarouselNews({ news }: Props) {
                 link={item.link}
                 key={index}
                 variant={item.variant}
-                className="shrink-0 grow-0 basis-full sm:basis-1/2 lg:basis-1/3"
+                className="shrink-0 grow-0 w-full sm:w-1/2 lg:w-1/3"
               />
             ))}
           </div>

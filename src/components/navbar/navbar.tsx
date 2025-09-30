@@ -42,9 +42,12 @@ export function Navbar() {
             <Link
               href={link.href}
               key={`link-${link.name}`}
-              className="font-sm"
+              className="font-sm group flex flex-col  w-fit"
             >
-              {link.name}
+              <span>{link.name}</span>
+              <div
+                className={`h-0.5 w-0 group-hover:w-full transition-all duration-300 bg-orange`}
+              />
             </Link>
           ))}
         </nav>
