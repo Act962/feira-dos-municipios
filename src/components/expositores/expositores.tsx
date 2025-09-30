@@ -3,7 +3,10 @@ import { Button } from "../ui/buttons";
 
 export default function Expositores() {
   return (
-    <section className="relative px-8 py-24  bg-red text-white">
+    <section
+      id="expositores"
+      className="relative px-8 py-24  bg-red text-white"
+    >
       <Image
         src="/start-1.png"
         width={72}

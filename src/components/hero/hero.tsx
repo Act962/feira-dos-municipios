@@ -5,7 +5,10 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen bg-background bg-bottom-right px-4 py-12 flex items-center justify-center mt-12">
+    <section
+      id="home"
+      className="relative min-h-screen bg-background bg-bottom-right px-4 py-12 flex items-center justify-center mt-12"
+    >
       <div
         className="absolute inset-0 bg-cover bg-bottom-right bg-no-repeat opacity-100"
         style={{

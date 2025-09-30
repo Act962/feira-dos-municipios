@@ -3,7 +3,7 @@ import { Button } from "../ui/buttons";
 
 export function About() {
   return (
-    <section className="relative bg-orange text-background">
+    <section id="about" className="relative bg-orange text-background">
       <Image
         src="/background-about.png"
         alt="Background About"
@@ -48,7 +48,7 @@ export function About() {
             alt="Foto Chapeu"
             width={358}
             height={352}
-            className="w-[210px] absolute -left-4 md:-left-20 top-28 bg-cover"
+            className="w-[210px] absolute -left-4 md:-left-25 top-28 bg-cover"
           />
 
           <div className="px-8 md:px-0 mt-12">

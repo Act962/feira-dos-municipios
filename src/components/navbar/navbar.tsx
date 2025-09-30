@@ -5,19 +5,19 @@ import { Button } from "../ui/buttons";
 const links = [
   {
     name: "Início",
-    href: "/",
+    href: "#home",
   },
   {
     name: "Sobre",
-    href: "/",
+    href: "#about",
   },
   {
     name: "Expositores",
-    href: "/",
+    href: "#expositores",
   },
   {
     name: "Notícias",
-    href: "/",
+    href: "#news",
   },
 ];
 

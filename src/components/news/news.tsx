@@ -48,7 +48,7 @@ const news: CarsouselNewsProps[] = [
 
 export function News() {
   return (
-    <section className="relative py-16 md:py-24 px-8 space-y-14 ">
+    <section id="news" className="relative py-16 md:py-24 px-8 space-y-14 ">
       <Image
         src="/cacto.png"
         width={580}
