@@ -9,14 +9,15 @@ export function Hero() {
       id="home"
       className="relative min-h-screen bg-background bg-bottom-right px-4 py-12 flex items-center justify-center mt-12"
     >
-      <div
-        className="absolute inset-0 bg-cover bg-bottom-right bg-no-repeat opacity-100"
-        style={{
-          backgroundImage: "url('/background-hero.png')",
-        }}
+      <video
+        src="/videos/video-hero.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="metadata"
+        className="absolute inset-0 w-full h-full object-cover"
       />
-
-      <div className="absolute bg-background inset-0 opacity-85" />
 
       <Image
         src="/caju-hero.png"

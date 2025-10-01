@@ -1,8 +1,12 @@
 import React from "react";
 import { Button } from "../ui/buttons";
 import Image from "next/image";
+import Link from "next/link";
 
 export function CallToAction() {
+  const LINK_REDIRECT_WHATSAPP =
+    "https://api.whatsapp.com/send/?phone=5586994435307&text=Ol%C3%A1%2C+gostaria+de+ser+expositor+na+Feira+dos+Munic%C3%ADpios+2025&type=phone_number&app_absent=0";
+
   return (
     <section className="relative py-16 md:py-24 px-8 text-white bg-foreground">
       <Image
@@ -22,7 +26,9 @@ export function CallToAction() {
           integração, cultura e inovação municipalista do Piauí.
         </p>
 
-        <Button imageUrl="/vector.png">Quero ser um expositor</Button>
+        <Link href={LINK_REDIRECT_WHATSAPP} target="_blank">
+          <Button imageUrl="/vector.png">Quero ser um expositor</Button>
+        </Link>
       </div>
     </section>
   );

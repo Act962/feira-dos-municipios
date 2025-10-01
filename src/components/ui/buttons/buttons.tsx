@@ -17,7 +17,7 @@ export function Button({
   return (
     <button
       className={cn(
-        "relative w-full h-14 px-8 md:max-w-[387px] md:h-[70px] group cursor-pointer transition-opacity hover:opacity-85 text-white",
+        "relative w-full h-14 px-8 md:max-w-[387px] md:h-[70px] group cursor-pointer transition-opacity hover:opacity-80 text-white",
         className
       )}
       {...props}

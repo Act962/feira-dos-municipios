@@ -52,9 +52,6 @@ export default function Expositores() {
           desenvolvimento e fortalece a construção de um Piauí mais integrado,
           criativo e sustentável
         </p>
-        <Button imageUrl="/vector.png" className="mt-12">
-          Conheça nossos expositores
-        </Button>
       </div>
     </section>
   );

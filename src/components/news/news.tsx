@@ -64,7 +64,7 @@ export function News() {
             Municípios 2025.
           </h2>
 
-          <button
+          {/* <button
             className="bg-[url('/vector-3.png')] bg-cover bg-no-repeat px-4 h-10  w-[150px] cursor-pointer font-bold flex flex-row items-center justify-center gap-2 transition-all hover:opacity-85"
             aria-label="Vet todas"
           >
@@ -75,7 +75,7 @@ export function News() {
               src={"/seta-blue.png"}
               alt="Seta Blue"
             />
-          </button>
+          </button> */}
         </div>
         {/*  */}
       </div>

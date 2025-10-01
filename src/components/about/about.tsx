@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/buttons";
+import Link from "next/link";
 
 export function About() {
   return (
@@ -52,9 +53,11 @@ export function About() {
           />
 
           <div className="px-8 md:px-0 mt-12">
-            <Button imageUrl="/vector-white.png">
-              Saiba mais sobre o evento
-            </Button>
+            <Link href="#expositores">
+              <Button imageUrl="/vector-white.png" className="hover:opacity-60">
+                Saiba mais sobre o evento
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
