@@ -3,7 +3,7 @@ import Link from "next/link";
 import { tv, type VariantProps } from "tailwind-variants";
 
 export const cardVariants = tv({
-  base: `p-8 flex flex-col items-end text-white gap-4`,
+  base: `p-8 h-full flex flex-col items-start text-white`,
   variants: {
     variant: {
       default: "bg-red",
@@ -20,28 +20,33 @@ interface CardNewsProps
   extends VariantProps<typeof cardVariants>,
     React.ComponentProps<"div"> {
   imageUrl: string;
+  alt: string;
+  title: string;
   description: string;
   link: string;
 }
 
 export function CardNews({
   variant,
+  title,
   description,
   imageUrl,
+  alt,
   link,
   ...props
 }: CardNewsProps) {
   return (
     <div className="flex flex-col w-full text-background" {...props}>
-      <div className=" bg-[#666666] h-[280px]">{/* Conteúdo + Image */}</div>
+      <div className=" bg-[#666666] min-h-[280px] relative">
+        <Image src={imageUrl} alt={alt} fill className="object-cover" />
+      </div>
       <div className={cardVariants({ variant })}>
-        <p className="text-xs text-justify font-extralight leading-4">
-          {description}
-        </p>
+        <h3 className="font-bold"> {title} </h3>
+        <p className="text-xs mt-2">{description}</p>
 
         <Link
           href={link}
-          className="flex flex-row items-center gap-1 font-light text-xs transition-all hover:opacity-85"
+          className="flex flex-row items-center gap-1 font-light text-xs transition-all hover:opacity-85 self-end"
         >
           saiba mais
           <Image

@@ -3,44 +3,56 @@ import CarouselNews, { CarsouselNewsProps } from "./carousel-news";
 
 const news: CarsouselNewsProps[] = [
   {
-    imageUrl: "",
+    imageUrl: "/news/new-1.JPG",
+    alt: "2023.09.21 - EXPOSITOR CARIDADE - FEIRA DOS MUNICIPIOS",
+    title: "Público e Oportunidades",
     description:
-      "Territórios de Desenvolvimento Inovadores é o tema da 8ª edição da Feira dos Municípios. Durante três dias, no Centro de Convenções de Teresina, você vai explorar as riquezas do território piauiense em uma imersão única: artesanato tradicional, turismo, gastronomia típica e atrações culturais que revelam a força e a diversidade dos nossos municípios.",
+      "Mais de 20 mil visitantes são esperados entre gestores, investidores, empresários, estudantes e sociedade civil,criando um ambiente de conexões e novas oportunidades.",
     link: "/",
     variant: "default",
   },
   {
-    imageUrl: "",
+    imageUrl: "/news/new-2.JPG",
+    alt: "2023.09.22 - EXPOSITORES - FEIRA DOS MUNICIPIOS",
+    title: "Experiências Culturais",
     description:
-      "Territórios de Desenvolvimento Inovadores é o tema da 8ª edição da Feira dos Municípios. Durante três dias, no Centro de Convenções de Teresina, você vai explorar as riquezas do território piauiense em uma imersão única: artesanato tradicional, turismo, gastronomia típica e atrações culturais que revelam a força e a diversidade dos nossos municípios.",
+      "Artesanato, gastronomia típica, turismo e apresentações artísticas fazem parte da programação que celebra a diversidade cultural do Piauí.",
     link: "/",
     variant: "primary",
   },
   {
-    imageUrl: "",
+    imageUrl: "/news/new-3.JPG",
+    alt: "2023.09.21 - ABERTURA - FEIRA DOS MUNICIPIOS",
+    title: "Inovação e Gestão Pública",
     description:
-      "Territórios de Desenvolvimento Inovadores é o tema da 8ª edição da Feira dos Municípios. Durante três dias, no Centro de Convenções de Teresina, você vai explorar as riquezas do território piauiense em uma imersão única: artesanato tradicional, turismo, gastronomia típica e atrações culturais que revelam a força e a diversidade dos nossos municípios.",
+      "A feira é palco para cases de sucesso e boas práticas de gestão, fortalecendo a cooperação regional e incentivando soluções criativas para os desafios municipais.",
     link: "/",
     variant: "secondary",
   },
   {
-    imageUrl: "",
+    imageUrl: "/news/new-4.jpg",
+    alt: "Feira do Muncipio Letras Grandesf",
+    title: "Tema 2025",
     description:
-      "Territórios de Desenvolvimento Inovadores é o tema da 8ª edição da Feira dos Municípios. Durante três dias, no Centro de Convenções de Teresina, você vai explorar as riquezas do território piauiense em uma imersão única: artesanato tradicional, turismo, gastronomia típica e atrações culturais que revelam a força e a diversidade dos nossos municípios.",
+      "A 8ª edição da Feira dos Municípios traz como tema “Territórios de Desenvolvimento Inovadores”, destacando o potencial de cada região do Piauí em uma experiência única de integração e inovação.",
     link: "/",
     variant: "default",
   },
   {
-    imageUrl: "",
+    imageUrl: "/news/new-5.JPG",
+    alt: "2023.09.21 - EXPOSITOR PIMENTEIRAS - FEIRA DOS MUNICIPIOS",
+    title: "224 Municípios",
     description:
-      "Territórios de Desenvolvimento Inovadores é o tema da 8ª edição da Feira dos Municípios. Durante três dias, no Centro de Convenções de Teresina, você vai explorar as riquezas do território piauiense em uma imersão única: artesanato tradicional, turismo, gastronomia típica e atrações culturais que revelam a força e a diversidade dos nossos municípios.",
+      "Todos os municípios piauienses estarão representados, apresentando suas riquezas culturais, econômicas e turísticas em espaços temáticos que valorizam cada território de desenvolvimento.",
     link: "/",
     variant: "primary",
   },
   {
-    imageUrl: "",
+    imageUrl: "/news/new-6.jpg",
+    alt: "Responsávies pelo Evento",
+    title: "Protagonismo Municipal",
     description:
-      "Territórios de Desenvolvimento Inovadores é o tema da 8ª edição da Feira dos Municípios. Durante três dias, no Centro de Convenções de Teresina, você vai explorar as riquezas do território piauiense em uma imersão única: artesanato tradicional, turismo, gastronomia típica e atrações culturais que revelam a força e a diversidade dos nossos municípios.",
+      "A Feira dos Municípios reafirma o papel das cidades como protagonistas do desenvolvimento regional, promovendo integração, cooperação e a construção de um Piauí mais sustentável e inovador.",
     link: "/",
     variant: "secondary",
   },

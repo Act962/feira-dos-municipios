@@ -9,6 +9,8 @@ import { cn } from "@/lib/utils";
 
 export interface CarsouselNewsProps {
   imageUrl: string;
+  alt: string;
+  title: string;
   description: string;
   link: string;
   variant: "default" | "primary" | "secondary";
@@ -42,7 +44,9 @@ export default function CarouselNews({ news }: Props) {
           <div className="flex w-full gap-4 backface-hidden touch-pan-y">
             {news.map((item, index) => (
               <CardNews
+                title={item.title}
                 description={item.description}
+                alt={item.alt}
                 imageUrl={item.imageUrl}
                 link={item.link}
                 key={index}
