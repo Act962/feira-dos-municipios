@@ -46,7 +46,7 @@ export function CardNews({
 
         <Link
           href={link}
-          className="flex flex-row items-center gap-1 font-light text-xs transition-all hover:opacity-85 self-end"
+          className="mt-1 flex flex-row items-center gap-1 font-light text-xs transition-all hover:opacity-85 self-end"
         >
           saiba mais
           <Image
