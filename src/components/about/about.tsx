@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function About() {
   return (
-    <section id="about" className="relative bg-orange text-background">
+    <section id="about" className="relative bg-orange text-white">
       <Image
         src="/background-about.png"
         alt="Background About"
@@ -17,8 +17,8 @@ export function About() {
           <h2 className="font-black text-4xl text-center md:text-start">
             Sobre a Feira <br /> dos Municípios
           </h2>
-          <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 tracking-wider font-extralight">
-            <strong>
+          <p className="w-full text-justify text-sm md:text-base md:max-w-sm mt-12 tracking-wider font-light">
+            <strong className="font-bold">
               O maior encontro de integração, cultura e inovação municipalista
               do Piauí.
             </strong>{" "}
