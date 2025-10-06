@@ -52,7 +52,10 @@ export function Navbar() {
           ))}
         </nav>
 
-        <Link href="/inscricao">
+        <Link
+          href="https://lets.4.events/feira-dos-municipios-2025-C24157E27"
+          target="_blank"
+        >
           <button
             className="bg-[url('/vector.png')] bg-contain bg-no-repeat px-4 h-9 sm:h-10 w-[170px] sm:w-[200px] cursor-pointer font-bold flex flex-row items-center justify-center gap-2 transition-all hover:opacity-85 text-white text-xs"
             aria-label="Vet todas"

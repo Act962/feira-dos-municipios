@@ -95,7 +95,10 @@ export function Hero() {
             </div>
           </div>
 
-          <Link href="/inscricao">
+          <Link
+            href="https://lets.4.events/feira-dos-municipios-2025-C24157E27"
+            target="_blank"
+          >
             <Button imageUrl="/vector.png" className="mt-12">
               Faça sua inscrição
             </Button>
