@@ -13,7 +13,7 @@ const links = [
   },
   {
     name: "Expositores",
-    href: "#expositores",
+    href: "#partners",
   },
   {
     name: "Notícias",

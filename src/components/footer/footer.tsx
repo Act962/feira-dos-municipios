@@ -34,7 +34,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col justify-center items-center mt-6 gap-3">
-          <span className="text-sm">Realização:</span>
+          <span className="text-sm">Patrocínio:</span>
 
           <div className="flex flex-row items-center justify-center gap-8 flex-wrap">
             <Image
