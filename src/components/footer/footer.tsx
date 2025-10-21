@@ -100,7 +100,6 @@ export function Footer() {
               height={186}
               className="w-[100px]"
             />
-            a
           </div>
         </div>
 
