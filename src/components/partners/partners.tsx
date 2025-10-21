@@ -82,6 +82,55 @@ const partners = [
     title: "MM Consultoria\n& Projetos",
   },
   { imageUrl: "/partners/casa-7.png", title: "Casa 7\nChurrascaria" },
+  {
+    imageUrl: "/partners/destinos.png",
+    title: "Destinos Projetos\n& Consultoria ",
+  },
+  {
+    imageUrl: "/partners/aghapy-flores.png",
+    title: "Ághapy Flores",
+  },
+  {
+    imageUrl: "/partners/mae-coruja.png",
+    title: "Mãe Coruja",
+  },
+  {
+    imageUrl: "/partners/desk-moveis-escolares.png",
+    title: "Desk Móveis\nEscolares",
+  },
+  {
+    imageUrl: "/partners/prefeitura-sao-raimundo-nonato.png",
+    title: "Prefeitura de\nSão Raimundo Nonato",
+  },
+  {
+    imageUrl: "/partners/prefeitura-sao-felix-piaui.png",
+    title: "Prefeitura de\nSão Félix do Piauí",
+  },
+  {
+    imageUrl: "/partners/prefeitura-sao-jose-piaui.png",
+    title: "Prefeitura de\nSão José do Piauí",
+  },
+  {
+    imageUrl: "/partners/prefeitura-curralinhos.png",
+    title: "Prefeitura de\nCurralinhos",
+  },
+  {
+    imageUrl: "/partners/prefeitura-pimenteiras.png",
+    title: "Prefeitura de\nPimenteiras",
+  },
+  {
+    imageUrl: "/partners/uninassau.png",
+    title: "UNINASSAU",
+  },
+  {
+    imageUrl: "/partners/gespat.png",
+    title: "GESPAT Gestão Patrimonial\nEspecializada",
+  },
+
+  {
+    imageUrl: "/partners/helio.png",
+    title: "Hélio Books",
+  },
 ];
 
 export function Partners() {

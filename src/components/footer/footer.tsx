@@ -38,21 +38,12 @@ export function Footer() {
 
           <div className="flex flex-row items-center justify-center gap-8 flex-wrap">
             <Image
-              src="/sponsors/sebrae.png"
-              alt="Logo do Sebrae"
-              width={343}
-              height={186}
-              className="w-[100px]"
-            />
-
-            <Image
               src="/sponsors/sesc.png"
-              alt="Logo do Sebrae"
+              alt="Sesc"
               width={291}
               height={158}
               className="w-[100px]"
             />
-
             <Image
               src="/sponsors/senac.png"
               alt="Logo do Senac"
@@ -60,7 +51,6 @@ export function Footer() {
               height={217}
               className="w-[100px]"
             />
-
             <Image
               src="/sponsors/ittnet.png"
               alt="Logo do Ittnet"
@@ -68,7 +58,6 @@ export function Footer() {
               height={102}
               className="w-[100px] mt-4"
             />
-
             <Image
               src="/sponsors/paxuniao.png"
               alt="Logo do Pax União"
@@ -76,20 +65,62 @@ export function Footer() {
               height={91}
               className="w-[100px] mt-4"
             />
-
             <Image
               src="/sponsors/piaui.png"
-              alt="Logo do Pax União"
+              alt="Logo Piauí nosso sonho nosso amor"
               width={203}
               height={113}
               className="w-[100px]"
             />
-
             <Image
               src="/sponsors/governo-piaui.png"
-              alt="Logo do Pax União"
+              alt="Governo do Piauí"
               width={464}
               height={135}
+              className="w-[120px]"
+            />
+            <Image
+              src="/sponsors/equatorial.png"
+              alt="Equatorial"
+              width={1000}
+              height={1000}
+              className="w-[120px]"
+            />
+            <Image
+              src="/sponsors/ecad.png"
+              alt="Ecad"
+              width={1000}
+              height={1000}
+              className="w-[120px]"
+            />
+            <Image
+              src="/sponsors/sebrae.png"
+              alt="Sebrae"
+              width={343}
+              height={186}
+              className="w-[100px]"
+            />
+            a
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center mt-6 gap-3">
+          <span className="text-sm">Apoio:</span>
+
+          <div className="flex flex-row items-center justify-center gap-8 flex-wrap">
+            <Image
+              src="/sponsors/eletromidia.png"
+              alt="Eletromidia Piauí"
+              width={343}
+              height={186}
+              className="w-[120px]"
+            />
+
+            <Image
+              src="/sponsors/arrey.png"
+              alt="Arrey Hotels"
+              width={291}
+              height={158}
               className="w-[120px]"
             />
           </div>
