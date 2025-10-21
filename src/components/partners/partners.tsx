@@ -10,7 +10,7 @@ const partners = [
   },
   { imageUrl: "/partners/bamex.png", title: "BAMEX" },
   { imageUrl: "/partners/sistemas.png", title: "DL SISTEMAS" }, //Ini
-  { imageUrl: "/partners/The-monza.png", title: "The monza" },
+  { imageUrl: "/partners/The-monza.png", title: "The Moza\nFood Truck" },
   { imageUrl: "/partners/Surgimed.png", title: "Surgimed" },
   { imageUrl: "/partners/Piracuruca.png", title: "Prefeitura de\nPiracuruca" },
   {
@@ -22,7 +22,7 @@ const partners = [
   { imageUrl: "/partners/portal-r10.png", title: "R10 Comunicação" },
   { imageUrl: "/partners/mercearia-gourmet.png", title: "Mercearia\nGourmet" },
   { imageUrl: "/partners/lala-doces.png", title: "Lalá Doces" },
-  { imageUrl: "/partners/mais-saude.png", title: "Mias Saúde\nDistribuidora" }, //ini
+  { imageUrl: "/partners/mais-saude.png", title: "Mais Saúde\nDistribuidora" }, //ini
   {
     imageUrl: "/partners/Prefeitura-ipiranga-piaui.png",
     title: "Prefeitura de\n Ipiranga do Piauí",
@@ -33,7 +33,7 @@ const partners = [
   },
   {
     imageUrl: "/partners/like-dindin-gourmet.png",
-    title: "Link dindin\n Gourmet",
+    title: "I like dindin\n Gourmet",
   },
   {
     imageUrl: "/partners/portal-compras-publicas.png",
@@ -60,11 +60,11 @@ const partners = [
     imageUrl: "/partners/prefeitura-cajueiro-praia.png",
     title: "Prefeitura de\nCajueiro da Praia",
   },
-  { imageUrl: "/partners/hora-brownie.png", title: "Hora d.Brownie" },
+  { imageUrl: "/partners/hora-brownie.png", title: "Hora D’ Brownie" },
 
   {
     imageUrl: "/partners/loga-do-piaui.png",
-    title: "Prefeitura de Logoa\ndo Piauí",
+    title: "Prefeitura de Lagoa\ndo Piauí",
   },
   { imageUrl: "/partners/urucui.png", title: "Prefeitura de Uruçuí" },
   { imageUrl: "/partners/aroazes.png", title: "Prefeitura de\nAroazes" },
@@ -79,9 +79,9 @@ const partners = [
   { imageUrl: "/partners/conecta-piaui.png", title: "Conecta Piauí" },
   {
     imageUrl: "/partners/mm-consultoria.png",
-    title: "MM Consultoria\n Projetos",
+    title: "MM Consultoria\n& Projetos",
   },
-  { imageUrl: "/partners/casa-7.png", title: "Casa 7" },
+  { imageUrl: "/partners/casa-7.png", title: "Casa 7\nChurrascaria" },
 ];
 
 export function Partners() {
