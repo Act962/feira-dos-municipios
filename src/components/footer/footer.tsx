@@ -66,20 +66,6 @@ export function Footer() {
               className="w-[100px] mt-4"
             />
             <Image
-              src="/sponsors/piaui.png"
-              alt="Logo Piauí nosso sonho nosso amor"
-              width={203}
-              height={113}
-              className="w-[100px]"
-            />
-            <Image
-              src="/sponsors/governo-piaui.png"
-              alt="Governo do Piauí"
-              width={464}
-              height={135}
-              className="w-[120px]"
-            />
-            <Image
               src="/sponsors/equatorial.png"
               alt="Equatorial"
               width={1000}
@@ -93,6 +79,21 @@ export function Footer() {
               height={1000}
               className="w-[120px]"
             />
+            <Image
+              src="/sponsors/piaui.png"
+              alt="Logo Piauí nosso sonho nosso amor"
+              width={203}
+              height={113}
+              className="w-[100px]"
+            />
+            <Image
+              src="/sponsors/governo-piaui.png"
+              alt="Governo do Piauí"
+              width={464}
+              height={135}
+              className="w-[120px]"
+            />
+
             <Image
               src="/sponsors/sebrae.png"
               alt="Sebrae"

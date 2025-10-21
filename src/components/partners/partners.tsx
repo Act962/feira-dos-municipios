@@ -11,7 +11,7 @@ const partners = [
   { imageUrl: "/partners/bamex.png", title: "BAMEX" },
   { imageUrl: "/partners/sistemas.png", title: "DL SISTEMAS" }, //Ini
   { imageUrl: "/partners/The-monza.png", title: "The Moza\nFood Truck" },
-  { imageUrl: "/partners/Surgimed.png", title: "Surgimed" },
+  // { imageUrl: "/partners/Surgimed.png", title: "Surgimed" },
   { imageUrl: "/partners/Piracuruca.png", title: "Prefeitura de\nPiracuruca" },
   {
     imageUrl: "/partners/prefeitura-marcos-parente.png",
@@ -39,7 +39,6 @@ const partners = [
     imageUrl: "/partners/portal-compras-publicas.png",
     title: "Portal de Compras públicas",
   },
-
   {
     imageUrl: "/partners/jose-de-freitas.png",
     title: "Prefeitura de José\nde Freitas",
@@ -68,10 +67,10 @@ const partners = [
   },
   { imageUrl: "/partners/urucui.png", title: "Prefeitura de Uruçuí" },
   { imageUrl: "/partners/aroazes.png", title: "Prefeitura de\nAroazes" },
-  {
-    imageUrl: "/partners/demerval-lobao.png",
-    title: "Prefeitura de\nDemerval Lobão",
-  },
+  // {
+  //   imageUrl: "/partners/demerval-lobao.png",
+  //   title: "Prefeitura de\nDemerval Lobão",
+  // },
   {
     imageUrl: "/partners/santa-cruz.png",
     title: "Prefeitura de Santa\nCruz dos Milagres",
