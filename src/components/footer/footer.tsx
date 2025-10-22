@@ -15,7 +15,7 @@ export function Footer() {
           <div>
             <span className="text-sm">Realização:</span>
             <Image
-              src="/sponsors/kalor.svg"
+              src="/sponsors/kalor.png"
               width={100}
               height={100}
               alt="Logo Kalor Produções"
@@ -40,66 +40,66 @@ export function Footer() {
             <Image
               src="/sponsors/sesc.png"
               alt="Sesc"
-              width={291}
-              height={158}
+              width={339}
+              height={321}
               className="w-[100px]"
             />
             <Image
               src="/sponsors/senac.png"
               alt="Logo do Senac"
-              width={399}
-              height={217}
+              width={477}
+              height={321}
               className="w-[100px]"
             />
             <Image
               src="/sponsors/ittnet.png"
               alt="Logo do Ittnet"
-              width={538}
-              height={102}
+              width={477}
+              height={107}
               className="w-[100px] mt-4"
             />
             <Image
               src="/sponsors/paxuniao.png"
               alt="Logo do Pax União"
-              width={531}
-              height={91}
+              width={1000}
+              height={321}
               className="w-[100px] mt-4"
             />
             <Image
               src="/sponsors/equatorial.png"
               alt="Equatorial"
               width={1000}
-              height={1000}
+              height={321}
               className="w-[120px]"
             />
             <Image
               src="/sponsors/ecad.png"
               alt="Ecad"
-              width={1000}
-              height={1000}
+              width={392}
+              height={321}
               className="w-[120px]"
             />
             <Image
               src="/sponsors/piaui.png"
               alt="Logo Piauí nosso sonho nosso amor"
-              width={203}
-              height={113}
-              className="w-[100px]"
-            />
-            <Image
-              src="/sponsors/governo-piaui.png"
-              alt="Governo do Piauí"
-              width={464}
-              height={135}
-              className="w-[120px]"
+              width={792}
+              height={195}
+              className="w-[200px]"
             />
 
             <Image
               src="/sponsors/sebrae.png"
               alt="Sebrae"
-              width={343}
-              height={186}
+              width={392}
+              height={240}
               className="w-[100px]"
+            />
+            <Image
+              src="/sponsors/senar.png"
+              alt="Senar Piauí"
+              width={477}
+              height={321}
+              className="w-[120px]"
             />
           </div>
         </div>
@@ -111,16 +111,16 @@ export function Footer() {
             <Image
               src="/sponsors/eletromidia.png"
               alt="Eletromidia Piauí"
-              width={343}
-              height={186}
+              width={1000}
+              height={321}
               className="w-[120px]"
             />
 
             <Image
               src="/sponsors/arrey.png"
               alt="Arrey Hotels"
-              width={291}
-              height={158}
+              width={339}
+              height={321}
               className="w-[120px]"
             />
           </div>
