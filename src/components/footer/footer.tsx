@@ -52,6 +52,13 @@ export function Footer() {
               className="w-[100px]"
             />
             <Image
+              src="/sponsors/senar.png"
+              alt="Senar Piauí"
+              width={477}
+              height={321}
+              className="w-[120px]"
+            />
+            <Image
               src="/sponsors/ittnet.png"
               alt="Logo do Ittnet"
               width={477}
@@ -65,12 +72,13 @@ export function Footer() {
               height={321}
               className="w-[100px] mt-4"
             />
+
             <Image
-              src="/sponsors/equatorial.png"
-              alt="Equatorial"
-              width={1000}
-              height={321}
-              className="w-[120px]"
+              src="/sponsors/codevasf.png"
+              alt="Logo do Pax União"
+              width={727}
+              height={148}
+              className="w-[100px] mt-4"
             />
             <Image
               src="/sponsors/ecad.png"
@@ -79,6 +87,14 @@ export function Footer() {
               height={321}
               className="w-[120px]"
             />
+            <Image
+              src="/sponsors/equatorial.png"
+              alt="Equatorial"
+              width={1000}
+              height={321}
+              className="w-[120px]"
+            />
+
             <Image
               src="/sponsors/piaui.png"
               alt="Logo Piauí nosso sonho nosso amor"
@@ -93,13 +109,6 @@ export function Footer() {
               width={392}
               height={240}
               className="w-[100px]"
-            />
-            <Image
-              src="/sponsors/senar.png"
-              alt="Senar Piauí"
-              width={477}
-              height={321}
-              className="w-[120px]"
             />
           </div>
         </div>
